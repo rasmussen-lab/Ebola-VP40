@@ -3,6 +3,11 @@
 
 #### Step 1: Download the FASTQ files from NCBI BioProject PRJNA1040271
 #### Step 2: Check the quality of the FASTQ files
+    fastqc -o RESULTS_QC -f fastq -t 20 FASTQ/*.gz
+
+    RESULTS_QC = Folder to save the output
+    FASTQ = Folder with FASTQ files in .gz format
+    
 #### Step 3: Human genome data download
     wget https://ftp.ensembl.org/pub/release-109/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
     gunzip Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
@@ -20,3 +25,7 @@
     Alignment = Folder to save the output files
 #### Step 6: To generate read counts
     Rscript ReadCount.R
+#### Step 7: To perform differential expression analysis
+    Rscript DiffExpr.R
+#### Step 8: To generate multidimensional scaling (MDS) plot of differentially expressed genes
+    Rscript MDSPlotDEG.R
