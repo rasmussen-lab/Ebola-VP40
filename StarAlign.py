@@ -1,3 +1,5 @@
+#### Contact: Reema Singh (Email: res498@usask.ca)
+
 import os
 import sys
 
