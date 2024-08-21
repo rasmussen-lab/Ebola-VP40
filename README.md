@@ -1,5 +1,5 @@
-# Ebola-VP40
-Differential expression analysis of cells infected with EBOV, RESTV, or mocks infected with culture medium
+# Ebola-VP40 
+## Differential expression analysis of cells infected with EBOV, RESTV, or mocks infected with culture medium
 
 #### Step 1: Download the FASTQ files from NCBI BioProject PRJNA1040271
 #### Step 2: Check the quality of the FASTQ files
