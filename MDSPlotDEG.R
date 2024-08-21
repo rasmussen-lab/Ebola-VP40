@@ -1,3 +1,5 @@
+##Contact: Reema Singh (Email: res498@usask.ca)
+
 library(DESeq2)
 library(vsn)
 library(ggplot2)
