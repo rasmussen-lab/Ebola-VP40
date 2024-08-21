@@ -1,3 +1,5 @@
+## Contact: Reema Singh (Email: res498@usask.ca)
+
 library(Rsubread)
 setwd("/home/reemas/scratch/EBOLA_DE/Alignment")
 file_list <- list.files(pattern="*.bam$")
