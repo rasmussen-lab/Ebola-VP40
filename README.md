@@ -31,3 +31,7 @@ https://github.com/ReemaSingh/Ebola-VP40
     Rscript DiffExpr.R
 #### Step 8: To generate multidimensional scaling (MDS) plot of differentially expressed genes
     Rscript MDSPlotDEG.R
+
+#### Author
+This script was originally created by Dr. Reema Singh
+
