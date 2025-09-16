@@ -33,5 +33,4 @@ https://github.com/ReemaSingh/Ebola-VP40
     Rscript MDSPlotDEG.R
 
 #### Author
-This script was originally created by Dr. Reema Singh
-
+This script was originally created by Dr. Reema Singh (Email: res498@usask.ca)
