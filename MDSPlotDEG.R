@@ -1,3 +1,4 @@
+#### Script created by Dr. Reema Singh
 ##Contact: Reema Singh (Email: res498@usask.ca)
 
 library(DESeq2)
